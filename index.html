@@ -2,47 +2,75 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
-  <title>我的社交账号</title>
+  <title>糯有引力 - Handmade Mochi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body { 
-      font-family: sans-serif; 
+      font-family: "Microsoft YaHei", sans-serif; 
       text-align: center; 
-      padding: 50px; 
-      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      padding: 30px; 
+      background: #fff8ef; /* 浅米色背景 */
+      color: #444;
     }
-    h2 { 
-      color: #333; 
+    .logo {
+      width: 160px;
+      margin: 20px auto;
+      display: block;
+    }
+    h1 {
+      font-size: 28px;
+      color: #e6a529; /* 金黄色 */
+      margin: 15px 0 5px 0;
+    }
+    h2 {
+      font-size: 18px;
+      color: #666;
       margin-bottom: 40px;
     }
     .link { 
-      display: block; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 20px auto; 
       padding: 15px 20px; 
-      width: 260px;
+      width: 280px;
       border-radius: 12px; 
-      background: white; 
+      background: #e6a529; 
       text-decoration: none; 
-      color: #333; 
+      color: white; 
       font-size: 20px; 
       font-weight: bold;
       box-shadow: 0 4px 6px rgba(0,0,0,0.15);
       transition: all 0.3s;
     }
+    .link img {
+      width: 28px;
+      height: 28px;
+      margin-right: 12px;
+      filter: brightness(0) invert(1); /* 让图标变白，跟文字统一 */
+    }
     .link:hover { 
-      background: #f8f8f8; 
+      background: #cf8e1e; /* hover 深一点 */
       transform: scale(1.05); 
     }
   </style>
 </head>
 <body>
-  <h2>选择你要添加的社交账号</h2>
-    <h2>Select the social accounts you want to add</h2>
+  <!-- LOGO -->
+  <img src="顶布（三角）2.png" alt="糯有引力 Logo" class="logo">
+  
+  <!-- 标题 -->
+  <h1>糯有引力</h1>
+  <h2>Handmade Mochi Attraction</h2>
   
   <!-- 小红书主页 -->
-  <a class="link" href="https://www.xiaohongshu.com/user/profile/68084c15000000000d00a244" target="_blank">❤️ 小红书</a>
+  <a class="link" href="https://www.xiaohongshu.com/user/profile/68084c15000000000d00a244" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="小红书图标"> 小红书
+  </a>
   
   <!-- Instagram主页 -->
-  <a class="link" href="https://www.instagram.com/mochiattraction/" target="_blank">📸 Instagram</a>
+  <a class="link" href="https://www.instagram.com/mochiattraction/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram图标"> Instagram
+  </a>
 </body>
 </html>
